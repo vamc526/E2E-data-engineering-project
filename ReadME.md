@@ -1,4 +1,4 @@
-#Stock Market Kafka Real-Time Data Engineering Project
+*Stock Market Kafka Real-Time Data Engineering Project
 ##Introduction:
 
 Executed an End-To-End Data Engineering Project focusing on Real-Time Stock Market Data using Kafka.
@@ -8,7 +8,7 @@ Executed an End-To-End Data Engineering Project focusing on Real-Time Stock Mark
 
 Designed and implemented a robust data pipeline architecture to handle real-time data streaming and processing.
 
-![Architecture Diagram](path/to/architecture_diagram.png)
+![Architecture Diagram](Stock.png)
 
 ##Technologies Used:
 
