@@ -1,0 +1,63 @@
+Execution ID,Query,Start time,Status,Run time,Data scanned,Query engine version used,Encryption
+84ba4655-e80a-4ccd-b6c5-a59afe230a6d,"SELECT SUM(Volume) AS Total_Volume
+FROM ""stock-market "".""stock_market_vamc""",2024-05-30T16:02:40.360-04:00,SUCCEEDED,2.802 sec,1.27 MB,Athena engine version 3,
+9ec1918c-1fc1-46ef-8d64-3d81420a8e1d,"SELECT Date, Close AS Closing_Price
+FROM ""stock-market "".""stock_market_vamc""
+WHERE Close = (SELECT MAX(Close) FROM ""stock-market "".""stock_market_vamc"")
+OR Close = (SELECT MIN(Close) FROM ""stock-market "".""stock_market_vamc"")",2024-05-30T16:02:25.044-04:00,SUCCEEDED,3.362 sec,2.54 MB,Athena engine version 3,
+e2a1e7c0-1dee-4f44-8fc8-d275beaf6abf,"SELECT AVG(Close) AS Average_Closing_Price
+FROM ""stock-market "".""stock_market_vamc""",2024-05-30T16:02:12.966-04:00,SUCCEEDED,2.003 sec,1.27 MB,Athena engine version 3,
+d6062c9b-dd84-42cd-a6f0-d67a9a3bde79,"select count(*) from ""stock-market "".""stock_market_vamc""",2024-05-30T16:01:48.248-04:00,SUCCEEDED,2.552 sec,1.27 MB,Athena engine version 3,
+4a5e1e87-4c27-45c8-aef8-9c45b0216e6f,"select count(*) from ""stock-market "".""stock_market_vamc""",2024-05-30T16:01:33.848-04:00,SUCCEEDED,1.936 sec,1.27 MB,Athena engine version 3,
+2c475a10-c3df-402c-ac37-1526fbee65c7,"SELECT Date, Close AS Closing_Price
+FROM ""stock-market "".""stock_market_vamc""
+WHERE Close = (SELECT MAX(Close) FROM ""stock-market "".""stock_market_vamc"")
+OR Close = (SELECT MIN(Close) FROM ""stock-market "".""stock_market_vamc"")",2024-05-30T16:01:28.335-04:00,SUCCEEDED,2.397 sec,2.54 MB,Athena engine version 3,
+581bb8c4-8c54-46b9-a1d4-06f2b3fd25d9,"select count(*) from ""stock-market "".""stock_market_vamc""",2024-05-30T15:49:02.302-04:00,SUCCEEDED,1.829 sec,1.23 MB,Athena engine version 3,
+79cf6f29-ae8c-489c-b802-b44f83e34c97,"select count(*) from ""stock-market "".""stock_market_vamc""",2024-05-30T14:48:36.527-04:00,SUCCEEDED,2.582 sec,590.76 KB,Athena engine version 3,
+4311972f-fd8b-4dc4-bf2c-2727e6463d9f,"select count(*) from ""stock-market "".""stock_market_vamc""",2024-05-30T14:40:30.391-04:00,SUCCEEDED,2.025 sec,500.86 KB,Athena engine version 3,
+329ef0e3-f360-45f2-9a6c-42616529d6e5,"select count(*) from ""stock-market "".""stock_market_vamc""",2024-05-30T14:40:26.481-04:00,SUCCEEDED,1.285 sec,500.09 KB,Athena engine version 3,
+defc628d-392b-4bef-ad63-37fab2f62e01,"select count(*) from ""stock-market "".""stock_market_vamc""",2024-05-30T14:32:43.268-04:00,SUCCEEDED,1.529 sec,414.44 KB,Athena engine version 3,
+c323e4c2-899f-491b-9e94-2e6a2ca7be43,"select count(*) from ""stock-market "".""stock_market_vamc""",2024-05-30T14:32:38.884-04:00,SUCCEEDED,2.104 sec,413.67 KB,Athena engine version 3,
+f00b0c61-78d5-47b8-aad0-62682c600b62,"select count(*) from ""stock-market "".""stock_market_vamc""",2024-05-30T14:32:35.647-04:00,SUCCEEDED,1.121 sec,412.93 KB,Athena engine version 3,
+072e6450-ea61-408c-bfbd-48d2914bf0b6,"select count(*) from ""stock-market "".""stock_market_vamc""",2024-05-30T14:32:33.270-04:00,SUCCEEDED,1.064 sec,412.56 KB,Athena engine version 3,
+5f3d2702-c8fc-4d95-9985-2320fd00d7cb,"select count(*) from ""stock-market "".""stock_market_vamc""",2024-05-30T14:32:30.061-04:00,SUCCEEDED,1.469 sec,411.99 KB,Athena engine version 3,
+0052afcd-d59a-40a8-a626-7b8065c0561e,"select count(*) from ""stock-market "".""stock_market_vamc""",2024-05-30T14:32:26.605-04:00,SUCCEEDED,1.116 sec,411.25 KB,Athena engine version 3,
+afc5518f-3baf-4c87-9a9d-b9ad27aac026,"select count(*) from ""stock-market "".""stock_market_vamc""",2024-05-30T14:30:10.449-04:00,SUCCEEDED,1.283 sec,386.19 KB,Athena engine version 3,
+c3d19bef-df0f-4631-97c8-b933b9649174,"SELECT SUM(Volume) AS Total_Volume
+FROM ""stock-market "".""stock_market_vamc""",2024-05-30T14:30:00.812-04:00,SUCCEEDED,1.403 sec,384.49 KB,Athena engine version 3,
+b5a638fd-f486-4f3e-bb14-0889f76b0fd0,"SELECT Date, Close AS Closing_Price
+FROM ""stock-market "".""stock_market_vamc""
+WHERE Close = (SELECT MAX(Close) FROM ""stock-market "".""stock_market_vamc"")
+OR Close = (SELECT MIN(Close) FROM ""stock-market "".""stock_market_vamc"")",2024-05-30T14:28:43.894-04:00,SUCCEEDED,1.495 sec,740.56 KB,Athena engine version 3,
+dddac4e9-78d2-4450-b43a-6803b99a2b3e,"SELECT Date, Close AS Closing_Price
+FROM ""stock-market "".""stock_market_vamc""
+WHERE Close = (SELECT MAX(Close) FROM ""stock_market_vamc"")
+OR Close = (SELECT MIN(Close) FROM ""stock_market_vamc"")",2024-05-30T14:28:24.196-04:00,FAILED,302 ms,0 MB,Athena engine version 3,
+3df9ade5-9106-4b2d-8dd2-36d06bc7a3f2,"SELECT Date, Close AS Closing_Price
+FROM ""stock-market "".""stock_market_vamc""
+WHERE Close = (SELECT MAX(Close) FROM stock_market_vamc)
+OR Close = (SELECT MIN(Close) FROM stock_market_vamc)",2024-05-30T14:28:11.426-04:00,FAILED,321 ms,0 MB,Athena engine version 3,
+5cb8ac86-93fc-4b5a-957e-f9997c77b299,"SELECT AVG(Close) AS Average_Closing_Price
+FROM ""stock-market "".""stock_market_vamc""",2024-05-30T14:27:03.706-04:00,SUCCEEDED,1.446 sec,351.83 KB,Athena engine version 3,
+0fb075f6-c017-4878-b01a-306c8a2cafec,"SELECT AVG(Close) AS Average_Closing_Price
+FROM ""stock_market_vamc""",2024-05-30T14:26:50.168-04:00,FAILED,215 ms,0 MB,Athena engine version 3,
+5abfaa6a-3f50-4b88-b8e4-128efede92d4,"select count(*) from ""stock-market "".""stock_market_vamc""",2024-05-30T14:26:44.757-04:00,SUCCEEDED,1.361 sec,348.26 KB,Athena engine version 3,
+44db2425-91b5-40fb-bdde-8ac869fff221,"select count(*) from ""stock-market "".""stock_market_vamc""",2024-05-30T14:21:40.067-04:00,SUCCEEDED,1.027 sec,291.81 KB,Athena engine version 3,
+cee47a68-c733-40c1-9690-95f67f8cf480,"select count(*) from ""stock-market "".""stock_market_vamc""",2024-05-30T14:21:37.177-04:00,SUCCEEDED,1.082 sec,291.44 KB,Athena engine version 3,
+7a66fcce-5e5d-4ef6-8f80-7eb13ad77039,"select count(*) from ""stock-market "".""stock_market_vamc""",2024-05-30T14:21:33.653-04:00,SUCCEEDED,1.109 sec,290.70 KB,Athena engine version 3,
+d27d73ef-5292-4b7d-a4e2-fdf531249d89,"select count(*) from ""stock-market "".""stock_market_vamc""",2024-05-30T14:21:26.821-04:00,SUCCEEDED,1.022 sec,289.36 KB,Athena engine version 3,
+37f31472-808e-4f31-a28c-9948726449f0,"EXPLAIN (FORMAT JSON, TYPE DISTRIBUTED) select count(*) from ""stock_market_vamc""",2024-05-30T14:20:32.022-04:00,FAILED,218 ms,0 MB,Athena engine version 3,
+72b6c050-b105-4dcb-9f4b-f208462145cb,"select count(*) from ""stock_market_vamc""",2024-05-30T14:20:27.184-04:00,FAILED,199 ms,0 MB,Athena engine version 3,
+9fb1ef2c-a74e-428f-9010-6f64b064d70d,select count(*) from stock_market_vamc,2024-05-30T14:20:10.225-04:00,FAILED,247 ms,0 MB,Athena engine version 3,
+6404438a-4cc8-4a12-a625-294c0ad82dab,"SELECT * FROM ""stock-market "".""stock_market_vamc"" limit 10",2024-05-30T14:17:23.848-04:00,SUCCEEDED,632 ms,5.29 KB,Athena engine version 3,
+9417d8d7-aad1-47bd-a231-0fc0d836b50a,"SELECT * FROM ""stock-market"".""stock_market_vamc"" limit 10",2024-05-30T14:16:21.942-04:00,FAILED,192 ms,0 MB,Athena engine version 3,
+ca188c66-ff50-41ba-a20d-a4a325a75e94,"SELECT * FROM ""stock-market"".""stock_market_vamc"" limit 10",2024-05-30T14:16:20.253-04:00,FAILED,208 ms,0 MB,Athena engine version 3,
+5ebd4f1d-7f98-457a-8fff-57d8cc444306,"SELECT * FROM ""stock-market"".""stock_market_vamc"" limit 10",2024-05-30T14:16:18.681-04:00,FAILED,206 ms,0 MB,Athena engine version 3,
+3493f920-18d7-458b-903c-1fcd474f7b23,"SELECT * FROM ""stock-market"".""stock_market_vamc"" limit 10",2024-05-30T14:14:19.099-04:00,FAILED,203 ms,0 MB,Athena engine version 3,
+eda07c85-01a5-470a-a6c4-c6a58ebb7045,"SELECT COUNT(*) FROM ""stock-market"".""stock_market_vamc""",2024-05-30T14:10:39.565-04:00,FAILED,194 ms,0 MB,Athena engine version 3,
+a84fe557-4c2a-48f4-8afa-139c28b6df4c,"SELECT COUNT(*) FROM ""stock-market"".""stock_market_vamc"" limit 10",2024-05-30T14:06:52.832-04:00,FAILED,279 ms,0 MB,Athena engine version 3,
+27979a87-24df-4e47-8635-b4ae088ac12c,"select count(*) from ""stock-market"".""stock_market_vamc"" limit 10",2024-05-30T14:05:52.518-04:00,FAILED,196 ms,0 MB,Athena engine version 3,
+4fe9ac6c-b484-4c5e-afa2-455aa1ab6c19,"select count(*) from ""stock_market_vamc""",2024-05-30T14:05:03.915-04:00,FAILED,201 ms,0 MB,Athena engine version 3,
+9411db63-7777-410d-b29f-3b5859dde3fa,"select count(*) from ""stock-market """,2024-05-30T14:04:39.654-04:00,FAILED,207 ms,0 MB,Athena engine version 3,
+f4486c43-13f5-4f83-954a-1bb9412adc44,"select count(*) from ""stock-market """,2024-05-30T14:04:25.881-04:00,FAILED,208 ms,0 MB,Athena engine version 3,
