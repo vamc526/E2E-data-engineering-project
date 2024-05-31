@@ -46,7 +46,4 @@ Integrated Glue Data Catalog with Athena to manage metadata and schema evolution
 Deployed and managed Kafka on AWS EC2 instances for scalability and reliability.
 Implemented monitoring and logging mechanisms to ensure data pipeline reliability and performance.
 
-## Optimization and Maintenance:
 
-Optimized data pipeline for low-latency and high-throughput operations.
-Conducted regular maintenance and troubleshooting to ensure seamless data flow.
