@@ -6,7 +6,7 @@ Executed an End-To-End Data Engineering Project focusing on Real-Time Stock Mark
 
 Designed and implemented a robust data pipeline architecture to handle real-time data streaming and processing.
 
-![Architecture Diagram](Stock.png)
+![Architecture Diagram](Architecture.jpg)
 
 ## Technologies Used:
 
